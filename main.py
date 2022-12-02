@@ -81,7 +81,7 @@ def choice_char_class() -> Optional[str]:
     return char_class
 
 
-def main():
+def main() -> Optional[str]:
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name: Optional[str] = input('...назови себя: ')
